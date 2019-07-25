@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                         numbers.charAt(ran.nextInt(numbers.length()));
             }
             String msg = new String(otp);
-            return msg;
+            return msg;//returns message
         }
     }
 }
