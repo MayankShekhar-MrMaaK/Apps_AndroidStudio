@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="100dp"
+        android:hint="City name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="221dp"
+        android:backgroundTint="?attr/colorControlHighlight"
+        android:onClick="findWeather"
+        android:text="@android:string/search_go" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="331dp"
+        android:layout_height="223dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="0dp"
+        android:padding="10dp"
+        android:textAlignment="viewStart"
+        android:textColor="#0E0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:visibility="invisible" />
+
+
+</RelativeLayout>
