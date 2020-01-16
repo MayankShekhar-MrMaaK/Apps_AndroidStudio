@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/ccac4080c7bdc7b894706420a2df6047"
+    android:backgroundTintMode="screen"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="121dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="541dp"
+        android:background="@android:color/black"
+        android:text="GO"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
